@@ -12,23 +12,31 @@ export const HeroSection = () => {
             <span className="opacity-0 animate-fade-in"> Hi, I'm</span>
             <span className="text-primary opacity-0 animate-fade-in-delay-1">
               {" "}
-              Pedro
+              Ayush
             </span>
             <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">
               {" "}
-              Machado
+              Sharma
             </span>
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            I create stellar web experiences with modern technologies.
-            Specializing in front-end development, I build interfaces that are
-            both beautiful and functional.
+           Passionate IT student & aspiring full-stack developer.
+           I craft clean, functional, and visually appealing web apps — turning ideas into interactive experiences.
           </p>
+
+          {/* Profile Photo */}
+          <div className="opacity-0 animate-fade-in-delay-3">
+            <img
+              src="/portfolio_me.jpg" // replace with your actual image path
+              alt="Ayush Sharma"
+              className="w-32 h-32 rounded-full mx-auto border-4 border-primary shadow-lg"
+            />
+          </div>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
             <a href="#projects" className="cosmic-button">
-              View My Work
+              See My Projects
             </a>
           </div>
         </div>

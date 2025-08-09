@@ -3,30 +3,31 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "Todo List App",
+    description: "A feature-rich todo list with theme toggle, task search, filtering, editing, and persistent storage.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React", "LocalStorage", "CSS"],
+    demoUrl: "https://todo-app-zeta-sepia.vercel.app/",
+    githubUrl: "https://github.com/AyushSharma718/todo-app",
   },
-  {
-    id: 2,
-    title: "Orbit Analytics Dashboard",
-    description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
-    image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
-  },
+ {
+  id: 2,
+  title: "Time Machine 3000",
+  description:
+    "A highly experimental project where I totally didn’t build a time machine… yet. Perfect for debugging bugs before they happen.",
+  image: "/projects/funny-project.png",
+  tags: ["JavaScript", "React", "Imagination"],
+  demoUrl: "#",
+  githubUrl: "#",
+},
+
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Work in progress",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "work will start soon (maybe.. idk)",
     image: "/projects/project3.png",
-    tags: ["React", "Node.js", "Stripe"],
+    tags: ["progastination"],
     demoUrl: "#",
     githubUrl: "#",
   },
@@ -100,7 +101,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/AyushSharma718"
           >
             Check My Github <ArrowRight size={16} />
           </a>
