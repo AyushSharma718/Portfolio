@@ -12,13 +12,13 @@ const projects = [
   },
  {
   id: 2,
-  title: "Time Machine 3000",
+  title: "QuoteForge",
   description:
-    "A highly experimental project where I totally didn’t build a time machine… yet. Perfect for debugging bugs before they happen.",
-  image: "/projects/funny-project.png",
-  tags: ["JavaScript", "React", "Imagination"],
-  demoUrl: "#",
-  githubUrl: "#",
+    "A random quote generator with light/dark mode and tweet functionality.",
+  image: "/projects/project2.png",
+  tags: ["React", "Tailwind", "API"],
+  demoUrl: "https://quote-forge.vercel.app/",
+  githubUrl: "https://github.com/AyushSharma718/QuoteForge",
 },
 
   {

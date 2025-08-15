@@ -7,17 +7,14 @@ const skills = [
   { name: "JavaScript (ES6+)", level: 90, category: "frontend" },
   { name: "React.js", level: 90, category: "frontend" },
   { name: "Tailwind CSS", level: 92, category: "frontend" },
-  { name: "Next.js", level: 85, category: "frontend" },
 
   // Backend
   { name: "Node.js", level: 80, category: "backend" },
   { name: "Express.js", level: 78, category: "backend" },
   { name: "MongoDB", level: 75, category: "backend" },
-  { name: "PostgreSQL", level: 68, category: "backend" },
 
   // Tools & Design
   { name: "Git & GitHub", level: 90, category: "tools" },
-  { name: "Figma", level: 88, category: "tools" },
   { name: "VS Code", level: 95, category: "tools" },
 ];
 

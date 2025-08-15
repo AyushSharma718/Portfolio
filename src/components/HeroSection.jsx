@@ -30,7 +30,7 @@ export const HeroSection = () => {
             <img
               src="/portfolio_me.jpg" // replace with your actual image path
               alt="Ayush Sharma"
-              className="w-32 h-32 rounded-full mx-auto border-4 border-primary shadow-lg"
+              className="w-40 h-40  mx-auto border-2 border-primary shadow-lg"
             />
           </div>
 
