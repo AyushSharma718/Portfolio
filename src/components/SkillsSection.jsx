@@ -3,19 +3,19 @@ import { cn } from "@/lib/utils";
 
 const skills = [
   // Frontend
-  { name: "HTML5 / CSS3", level: 95, category: "frontend" },
-  { name: "JavaScript (ES6+)", level: 90, category: "frontend" },
-  { name: "React.js", level: 90, category: "frontend" },
-  { name: "Tailwind CSS", level: 92, category: "frontend" },
+  { name: "HTML5 / CSS3", level: 100, category: "frontend" },
+  { name: "JavaScript (ES6+)", level: 100, category: "frontend" },
+  { name: "React.js", level: 100, category: "frontend" },
+  { name: "Tailwind CSS", level: 100, category: "frontend" },
 
   // Backend
-  { name: "Node.js", level: 80, category: "backend" },
-  { name: "Express.js", level: 78, category: "backend" },
-  { name: "MongoDB", level: 75, category: "backend" },
+  { name: "Node.js", level: 100, category: "backend" },
+  { name: "Express.js", level: 100, category: "backend" },
+  
 
   // Tools & Design
-  { name: "Git & GitHub", level: 90, category: "tools" },
-  { name: "VS Code", level: 95, category: "tools" },
+  { name: "Git & GitHub", level: 100, category: "tools" },
+  { name: "VS Code", level: 100, category: "tools" },
 ];
 
 const categories = [
@@ -75,7 +75,7 @@ export const SkillsSection = () => {
               </div>
               <div className="text-right mt-1">
                 <span className="text-sm text-muted-foreground">
-                  {skill.level}%
+                  
                 </span>
               </div>
             </div>

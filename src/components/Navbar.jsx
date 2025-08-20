@@ -82,7 +82,7 @@ export const Navbar = () => {
               >
                 {item.name}
               </a>
-            ))}
+            ))}         
           </div>
         </div>
       </div>
