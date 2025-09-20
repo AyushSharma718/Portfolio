@@ -7,8 +7,8 @@ const projects = [
     description: "A feature-rich todo list with theme toggle, task search, filtering, editing, and persistent storage.",
     image: "/projects/project1.png",
     tags: ["React", "LocalStorage", "CSS"],
-    demoUrl: "https://todo-app-zeta-sepia.vercel.app/",
-    githubUrl: "https://github.com/AyushSharma718/todo-app",
+    demoUrl: "to-do-list-alpha-eight-66.vercel.app",
+    githubUrl: "https://github.com/AyushSharma718/ToDoList",
   },
  {
   id: 2,
